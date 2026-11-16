@@ -1,4 +1,4 @@
-const V = 'lucille-v11';
+const V = 'lucille-v12';
 const PRECACHE = ['/', '/favs', '/data', '/s.css', '/app.js', '/chords.js', '/staff.js', '/icon.svg', '/logo.svg', '/icon-192.png', '/icon-512.png', '/apple-touch-icon.png', '/manifest.webmanifest',
   '/fonts/geist-latin-wght-normal.woff2', '/fonts/geist-latin-ext-wght-normal.woff2', '/fonts/geist-mono-latin-wght-normal.woff2', '/fonts/instrument-serif-latin-400-normal.woff2', '/fonts/instrument-serif-latin-400-italic.woff2'];
 
