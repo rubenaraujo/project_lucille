@@ -1,0 +1,10 @@
+{
+  "name": "project_lucille",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "lan": "HOST=0.0.0.0 node server.js"
+  }
+}
