@@ -278,7 +278,7 @@ ${others.length ? `<h3>${tx('others')}</h3><ul class="list">${others.map(r => ro
 /* ---------- http ---------- */
 const STATIC = {
   '/s.css': 'text/css', '/app.js': 'text/javascript', '/chords.js': 'text/javascript', '/staff.js': 'text/javascript', '/sw.js': 'text/javascript',
-  '/manifest.webmanifest': 'application/manifest+json', '/icon.svg': 'image/svg+xml', '/logo.svg': 'image/svg+xml', '/icon-192.png': 'image/png', '/icon-512.png': 'image/png', '/apple-touch-icon.png': 'image/png',
+  '/manifest.webmanifest': 'application/manifest+json', '/icon.svg': 'image/svg+xml', '/logo.svg': 'image/svg+xml', '/icon-192.png': 'image/png', '/mark.png': 'image/png', '/icon-512.png': 'image/png', '/apple-touch-icon.png': 'image/png',
 };
 const fontFile = p => /^\/fonts\/[\w.-]+\.woff2$/.test(p) && path.join(ROOT, 'public', p);
 const send = (res, code, body, type = 'text/html; charset=utf-8', extra = {}) => {
