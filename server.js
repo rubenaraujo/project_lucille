@@ -185,7 +185,7 @@ const page = (title, body, { q = '', cls = '' } = {}) => `<!doctype html>
 <html lang="${L}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="lucille"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#0d0d0f">
 <title>${esc(title)}</title>
-<link rel="icon" href="/icon-192.png" type="image/png">
+<link rel="icon" href="/favicon.png" type="image/png">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="preload" href="/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -278,7 +278,7 @@ ${others.length ? `<h3>${tx('others')}</h3><ul class="list">${others.map(r => ro
 /* ---------- http ---------- */
 const STATIC = {
   '/s.css': 'text/css', '/app.js': 'text/javascript', '/chords.js': 'text/javascript', '/staff.js': 'text/javascript', '/sw.js': 'text/javascript',
-  '/manifest.webmanifest': 'application/manifest+json', '/icon.svg': 'image/svg+xml', '/logo.svg': 'image/svg+xml', '/icon-192.png': 'image/png', '/mark.png': 'image/png', '/icon-512.png': 'image/png', '/apple-touch-icon.png': 'image/png',
+  '/manifest.webmanifest': 'application/manifest+json', '/icon.svg': 'image/svg+xml', '/logo.svg': 'image/svg+xml', '/icon-192.png': 'image/png', '/mark.png': 'image/png', '/favicon.png': 'image/png', '/icon-512.png': 'image/png', '/apple-touch-icon.png': 'image/png',
 };
 const fontFile = p => /^\/fonts\/[\w.-]+\.woff2$/.test(p) && path.join(ROOT, 'public', p);
 const send = (res, code, body, type = 'text/html; charset=utf-8', extra = {}) => {
